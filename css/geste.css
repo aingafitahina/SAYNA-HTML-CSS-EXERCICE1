@@ -1,0 +1,149 @@
+
+/* css pour la barre de navigation*/
+nav{
+    background-color: #C55394;
+    padding-left: 1%;
+    overflow: hidden;
+    margin: fixed;
+  }
+  a:hover{
+    background-color:#EB43A3 ;
+    padding: 10px;
+    
+    
+  }
+  .nav-item{
+    color: aliceblue;
+  }
+
+  
+  #love{
+    color: aliceblue;
+
+  }
+
+/*mise en forme de la titre et de l'image arc en ciel*/
+  .pos h3{
+    font-family:'courgette', cursive;
+    color:#C55394;
+    font-size: 28px;
+    color: #C55394;
+    padding-top: 40px;
+
+    margin-top: 5%;
+    
+    height: 120px;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    }
+/*mise en forme de tout les h4*/
+    h4{
+      font-family:'courgette', cursive;
+    color:#EB43A3;
+    font-size: 15px;
+      
+    }
+
+  .i{
+     display: inline-flex;
+     margin-top: 5px;
+  
+     justify-content: center;
+     margin-left: 1em;
+  }
+ 
+  .im1{
+    width: 200px;
+    height: 200px;
+    
+  }
+  figure{
+
+    position: relative;
+    padding: 2.5px;
+    margin: auto;
+  }
+
+  #soustitre {
+
+      font-size: 22px;
+      font-family:"courgette",cursive;
+      color: #EB43A3
+  }
+  /* mise en forme de figvaption avec un top negative */
+  figcaption {
+    position: relative;
+    color:#FFF;
+    top: -30px;
+    text-align: center;
+    padding:5px;
+    width:100%;
+    
+    
+  
+  }
+  /* class pour chaque image de figcaption*/
+  .one{
+      background-color:rgba(7,7,7,60%) ; ;
+      background-size: 2em;
+  }
+  .two{
+    background-color:rgba(7,7,7,60%) ; ;
+    background-size: 2em;
+}
+
+  .three{
+      background-color: rgba(7,7,7,60%) ;
+  }
+
+  .four{
+    
+      background-color: rgba(7,7,7,60%) ;
+      background-size: 2em;
+  
+  }
+
+
+  .newsletter{
+    position: absolute;
+    top: 45em;
+    margin-left:50%;
+    ;
+  }
+  
+  body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    
+      }
+
+    /* mise en forme du container*/
+  .container{
+    position: center;
+     margin-top: -2%;
+    left: 50%;
+    width:900px;
+    height:500;
+   
+    padding: 30px;
+    background: #FFF;
+    box-sizing: border-box;
+    border-radius:10px;
+    box-shadow: 0 15px 50px rgba(0,0,0,.2);
+  }
+
+    footer{
+    background-color:#EB43A3;
+    text-align:flex;
+    color:#FFF;
+    height: 5vh;
+    padding-top: 10px;
+    padding-left: 90%;
+    
+    
+
+}
